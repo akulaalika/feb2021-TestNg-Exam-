@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.383 sec <<< FAILURE!
+validUserDueDateDropdownHaveAllMonths(test.MonthDropdownTest)  Time elapsed: 2.033 sec  <<< FAILURE!
+java.lang.AssertionError: lists don't have the same size expected [12] but found [1]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:555)
+	at org.testng.Assert.assertEquals(Assert.java:532)
+	at page.MonthDropdownPage.validateTheMonthDropdownHasAllTheMonths(MonthDropdownPage.java:47)
+	at test.MonthDropdownTest.validUserDueDateDropdownHaveAllMonths(MonthDropdownTest.java:21)
+
+validNewCategoryIsAdd(test.ValidateNewCategoryIsAddedTest)  Time elapsed: 2.066 sec  <<< FAILURE!
+java.lang.AssertionError: expected [LowHeat] but found [avc]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at page.ValidateAddedcategory.categoryIsAdded(ValidateAddedcategory.java:31)
+	at test.ValidateNewCategoryIsAddedTest.validNewCategoryIsAdd(ValidateNewCategoryIsAddedTest.java:20)
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3405" started-at="2021-09-05T18:52:35 GMT-11:00" finished-at="2021-09-05T18:52:39 GMT-11:00">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3405" started-at="2021-09-05T18:52:35 GMT-11:00" finished-at="2021-09-05T18:52:39 GMT-11:00">
+      <class name="test.ValidateNewCategoryIsAddedTest">
+        <test-method status="PASS" signature="validNewCategoryIsAdd()[pri:0, instance:test.ValidateNewCategoryIsAddedTest@1b68ddbd]" name="validNewCategoryIsAdd" duration-ms="3380" started-at="2021-09-05T18:52:35 GMT-11:00" finished-at="2021-09-05T18:52:39 GMT-11:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewCategoryIsAdd -->
+      </class> <!-- test.ValidateNewCategoryIsAddedTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

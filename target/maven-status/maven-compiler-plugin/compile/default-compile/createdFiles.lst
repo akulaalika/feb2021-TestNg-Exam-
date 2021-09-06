@@ -1,0 +1,5 @@
+page\AddCategoryPage.class
+util\BrowserFactory.class
+page\MonthDropdownPage.class
+page\BasePage.class
+page\ValidateAddedcategory.class
